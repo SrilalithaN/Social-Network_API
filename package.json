@@ -10,9 +10,9 @@
   },
   "author": "Sri",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/SrilalithaN/Social-Network_API"
   },
-  "homepage": "",
+  "homepage": "https://github.com/SrilalithaN/Social-Network_API",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",
