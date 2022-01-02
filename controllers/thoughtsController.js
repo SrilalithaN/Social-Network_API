@@ -14,9 +14,9 @@ const thoughtsController = {
                 res.status(404).json({message: 'No thoughts with this particular ID!'});
                 return;
             }
-            res.json(dbThoughtsData)
+            res.status(200).json(dbThoughtsData)
         })
-        .catch(err => res.json(err)); 
+        .catch(err => res.status(500).json(err)); 
     },
 
     // Get all available Thoughts
@@ -25,7 +25,7 @@ const thoughtsController = {
         .populate({path: 'reactions', select: '-__v'})
         .select('-__v')
         // .sort({_id: -1})
-        .then(dbThoughtsData => res.json(dbThoughtsData))
+        .then(dbThoughtsData => res.status(200).json(dbThoughtsData))
         .catch(err => {
             console.log(err);
             res.status(500).json(err);
@@ -42,11 +42,10 @@ const thoughtsController = {
             res.status(404).json({message: 'No thoughts with this particular ID!'});
             return;
         }
-        res.json(dbThoughtsData)
+        res.status(200).json(dbThoughtsData)
         })
         .catch(err => {
-            console.log(err);
-            res.sendStatus(400);
+            res.sendStatus(500);
         });
     },
 
@@ -62,7 +61,7 @@ const thoughtsController = {
             }
                 res.json(dbThoughtsData);
         })
-        .catch(err => res.json(err));
+        .catch(err => res.status(500).json(err));
     },
 
     // Delete a current thought by ID
@@ -73,7 +72,7 @@ const thoughtsController = {
                 res.status(404).json({message: 'No thoughts with this particular ID!'});
                 return;
             }
-            res.json(dbThoughtsData);
+            res.status(200).json(dbThoughtsData);
             })
             .catch(err => res.status(400).json(err));
     },
