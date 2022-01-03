@@ -87,9 +87,9 @@ const thoughtsController = {
             res.status(404).json({message: 'No thoughts with this particular ID!'});
             return;
         }
-        res.json(dbThoughtsData);
+        res.status(200).json(dbThoughtsData);
         })
-        .catch(err => res.status(400).json(err))
+        .catch(err => res.status(500).json(err))
 
     },
 
