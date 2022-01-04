@@ -38,7 +38,7 @@
 
   - [ Post,Update,Delete Users](https://drive.google.com/file/d/1raaa4HeR7okqO3R48oTIVIfnA3yIbARJ/view?usp=sharing)
 
-  -  [Post, Update, Delete Thoughts] (https://drive.google.com/file/d/1RV0K5pXSM84X1CsEivRwXAUDguXLFoWj/view?usp=sharing)
+  - [Post, Update, Delete Thoughts](https://drive.google.com/file/d/1RV0K5pXSM84X1CsEivRwXAUDguXLFoWj/view?usp=sharing)
 
   - [Add and Delete a Friend](https://drive.google.com/file/d/1yt1NAA-8kLEhRByPOM9694fOv31t39Ey/view?usp=sharing)
 
