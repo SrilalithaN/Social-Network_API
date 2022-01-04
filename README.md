@@ -34,9 +34,15 @@
 
 - The following video showcases the usage of the application
 
-  - [Users and Friends Routes](https://drive.google.com/file/d/1PaRkPBVJ8DKPo11GvHa-vWfY0yqDaryr/view?usp=sharing)
+  - [Get all Users and Thoughts and Get users and thoughts by id](https://drive.google.com/file/d/1bcVHY2d_-nAoI6kwfblbSFMCuk1dDZFZ/view?usp=sharing)
 
-  - [ Thoughts and Reactions Routes](https://drive.google.com/file/d/1xVCWVFlxRoJCAwDjyXWUkbewoNjhP-jv/view?usp=sharing)
+  - [ Post,Update,Delete Users](https://drive.google.com/file/d/1raaa4HeR7okqO3R48oTIVIfnA3yIbARJ/view?usp=sharing)
+
+  -  [Post, Update, Delete Thoughts] (https://drive.google.com/file/d/1RV0K5pXSM84X1CsEivRwXAUDguXLFoWj/view?usp=sharing)
+
+  - [Add and Delete a Friend](https://drive.google.com/file/d/1yt1NAA-8kLEhRByPOM9694fOv31t39Ey/view?usp=sharing)
+
+  - [Add and Delete a Reaction](https://drive.google.com/file/d/1eU37H1eo7Ya7fsVOe6IORCpbRnYp--P9/view?usp=sharing)
 
 ## Assets
 
